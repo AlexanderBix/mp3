@@ -1,4 +1,4 @@
-#Thu Oct 15 15:45:56 EDT 2020
-getAllProperties=\ List of all {@link UserProperty}s exposed primarily for the remoting API.\n
-getFullName=\ Gets the human readable name of this user.\n This is configurable by the user.\n
+#Sun Oct 18 18:10:59 EDT 2020
 getAbsoluteUrl=\ The URL of the user page.\n
+getFullName=\ Gets the human readable name of this user.\n This is configurable by the user.\n
+getAllProperties=\ List of all {@link UserProperty}s exposed primarily for the remoting API.\n
