@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="jenkins.util.xstream.XStreamDOMTest" time="0.103" tests="8" errors="0" skipped="0" failures="0">
+<testsuite name="jenkins.util.xstream.XStreamDOMTest" time="1.003" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
     <property name="java.vm.version" value="25.265-b01"/>
     <property name="java.vm.vendor" value="Private Build"/>
-    <property name="maven.multiModuleProjectDirectory" value="/home/ajbi235/Documents/mp3/mp3/jenkins"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/ajbi235/Music/mp3"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/ajbi235/Documents/mp3/mp3/jenkins"/>
+    <property name="user.dir" value="/home/ajbi235/Music/mp3"/>
     <property name="java.runtime.version" value="1.8.0_265-8u265-b01-0ubuntu2~18.04-b01"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
@@ -60,12 +60,12 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testNameEscape" classname="jenkins.util.xstream.XStreamDOMTest" time="0.048"/>
-  <testcase name="testWriteToDOM" classname="jenkins.util.xstream.XStreamDOMTest" time="0.025"/>
-  <testcase name="testUnmarshal" classname="jenkins.util.xstream.XStreamDOMTest" time="0.003"/>
-  <testcase name="readFromInputStream" classname="jenkins.util.xstream.XStreamDOMTest" time="0.004"/>
-  <testcase name="escapeHandling" classname="jenkins.util.xstream.XStreamDOMTest" time="0.017"/>
+  <testcase name="testNameEscape" classname="jenkins.util.xstream.XStreamDOMTest" time="0.616"/>
+  <testcase name="testWriteToDOM" classname="jenkins.util.xstream.XStreamDOMTest" time="0.048"/>
+  <testcase name="testUnmarshal" classname="jenkins.util.xstream.XStreamDOMTest" time="0"/>
+  <testcase name="readFromInputStream" classname="jenkins.util.xstream.XStreamDOMTest" time="0.058"/>
+  <testcase name="escapeHandling" classname="jenkins.util.xstream.XStreamDOMTest" time="0.161"/>
   <testcase name="testMarshal" classname="jenkins.util.xstream.XStreamDOMTest" time="0.002"/>
-  <testcase name="testNoChild" classname="jenkins.util.xstream.XStreamDOMTest" time="0.001"/>
-  <testcase name="testDomInMap" classname="jenkins.util.xstream.XStreamDOMTest" time="0.003"/>
+  <testcase name="testNoChild" classname="jenkins.util.xstream.XStreamDOMTest" time="0.002"/>
+  <testcase name="testDomInMap" classname="jenkins.util.xstream.XStreamDOMTest" time="0.116"/>
 </testsuite>

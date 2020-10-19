@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hudson.EnvVarsTest" time="0.062" tests="7" errors="0" skipped="0" failures="0">
+<testsuite name="hudson.EnvVarsTest" time="0.36" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
     <property name="java.vm.version" value="25.265-b01"/>
     <property name="java.vm.vendor" value="Private Build"/>
-    <property name="maven.multiModuleProjectDirectory" value="/home/ajbi235/Documents/mp3/mp3/jenkins"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/ajbi235/Music/mp3"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/ajbi235/Documents/mp3/mp3/jenkins"/>
+    <property name="user.dir" value="/home/ajbi235/Music/mp3"/>
     <property name="java.runtime.version" value="1.8.0_265-8u265-b01-0ubuntu2~18.04-b01"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
@@ -60,11 +60,11 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="overrideOrderCalculatorSelfReference" classname="hudson.EnvVarsTest" time="0.007"/>
-  <testcase name="caseInsensitive" classname="hudson.EnvVarsTest" time="0.035"/>
-  <testcase name="overrideOrderCalculatorMultiple" classname="hudson.EnvVarsTest" time="0.001"/>
-  <testcase name="overrideOrderCalculatorCyclic" classname="hudson.EnvVarsTest" time="0.018"/>
+  <testcase name="overrideOrderCalculatorSelfReference" classname="hudson.EnvVarsTest" time="0.332"/>
+  <testcase name="caseInsensitive" classname="hudson.EnvVarsTest" time="0"/>
+  <testcase name="overrideOrderCalculatorMultiple" classname="hudson.EnvVarsTest" time="0"/>
+  <testcase name="overrideOrderCalculatorCyclic" classname="hudson.EnvVarsTest" time="0.026"/>
   <testcase name="overrideExpandingAll" classname="hudson.EnvVarsTest" time="0.001"/>
-  <testcase name="overrideOrderCalculatorSimple" classname="hudson.EnvVarsTest" time="0"/>
+  <testcase name="overrideOrderCalculatorSimple" classname="hudson.EnvVarsTest" time="0.001"/>
   <testcase name="overrideOrderCalculatorInOrder" classname="hudson.EnvVarsTest" time="0"/>
 </testsuite>

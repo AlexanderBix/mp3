@@ -169,6 +169,7 @@ hudson/util/RobustReflectionConverterTest$Jacket.class
 jenkins/util/xstream/XStreamDOMTest$Foo.class
 hudson/scheduler/CronTabTest$2.class
 hudson/util/XStream2EncodingTest$Thing.class
+jenkins/testID.class
 hudson/util/RobustReflectionConverterTest.class
 hudson/tasks/_maven/Maven3MojoNoteTest.class
 hudson/util/XStream2Test$Bar.class
