@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hudson.UtilTest" time="0.125" tests="14" errors="0" skipped="1" failures="0">
+<testsuite name="hudson.UtilTest" time="0.13" tests="14" errors="0" skipped="1" failures="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
@@ -60,18 +60,18 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testSymlink" classname="hudson.UtilTest" time="0.078"/>
-  <testcase name="testIsSymlink" classname="hudson.UtilTest" time="0.005"/>
+  <testcase name="testSymlink" classname="hudson.UtilTest" time="0.063"/>
+  <testcase name="testIsSymlink" classname="hudson.UtilTest" time="0.001"/>
   <testcase name="testRawEncode" classname="hudson.UtilTest" time="0.001"/>
-  <testcase name="testTimeSpanString" classname="hudson.UtilTest" time="0.009"/>
-  <testcase name="isRelativePathWindows" classname="hudson.UtilTest" time="0.001"/>
-  <testcase name="testIsAbsoluteUri" classname="hudson.UtilTest" time="0"/>
-  <testcase name="loadProperties" classname="hudson.UtilTest" time="0.001"/>
-  <testcase name="testEncodeSpaces" classname="hudson.UtilTest" time="0.002"/>
+  <testcase name="testTimeSpanString" classname="hudson.UtilTest" time="0.016"/>
+  <testcase name="isRelativePathWindows" classname="hudson.UtilTest" time="0"/>
+  <testcase name="testIsAbsoluteUri" classname="hudson.UtilTest" time="0.001"/>
+  <testcase name="loadProperties" classname="hudson.UtilTest" time="0"/>
+  <testcase name="testEncodeSpaces" classname="hudson.UtilTest" time="0.003"/>
   <testcase name="testTryParseNumber" classname="hudson.UtilTest" time="0"/>
-  <testcase name="testDigestThreadSafety" classname="hudson.UtilTest" time="0.027"/>
+  <testcase name="testDigestThreadSafety" classname="hudson.UtilTest" time="0.045"/>
   <testcase name="isRelativePathUnix" classname="hudson.UtilTest" time="0"/>
-  <testcase name="testHtmlEscape" classname="hudson.UtilTest" time="0.001"/>
+  <testcase name="testHtmlEscape" classname="hudson.UtilTest" time="0"/>
   <testcase name="testReplaceMacro" classname="hudson.UtilTest" time="0"/>
   <testcase name="deleteFile" classname="hudson.UtilTest" time="0">
     <skipped/>
