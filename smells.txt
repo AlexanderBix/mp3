@@ -1,0 +1,15 @@
+Note: The test class for QUESTION #4 is in mp3/core/src/test/java/jenkins/testID.java
+
+Question: what code smell this is and what refactoring you can apply to remove the repeated statements?
+Answer: This is a duplicated code smell, and it can be refactored by extracting a method that is called in multiple instances
+
+Question: What code smell this is and what refactoring could remove it? 
+Answer: updateAndTrim does not belong in the Nodes class, as it is a Data Clump code smell.
+
+Question: How to eliminate this repeated code.
+Answer: One way to eliminate this repeated code is to use a for loop that runs for four iterations versus copying the code 4 times.
+
+Question: How you can eliminate this duplicate code, e.g., by applying the "Extract Method" or another refactoring.
+Answer: In the file RunParameterDefinitionTest.java, I extracted the mutliple duplicated line, "project.getPublishersList().replaceBy(VALUE)" into a method called getPublisherListSimplified(FreeStyleProject project, Result unstable)
+
+
